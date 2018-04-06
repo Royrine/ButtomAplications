@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="aplications.buttomaplications.GasCalculate">
+    tools:context="aplications.buttomaplications.ChildAge">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -16,25 +16,25 @@
             android:orientation="vertical">
 
             <EditText
-                android:id="@+id/etx_gasolina"
+                android:id="@+id/etx_childName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Valor Gasolina" />
+                android:hint="Child Name" />
 
             <EditText
-                android:id="@+id/etx_alcool"
+                android:id="@+id/etx_childAge"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Valor Álcool"/>
+                android:hint="Child Age" />
 
             <Button
-                android:id="@+id/btn_valorCalculate"
+                android:id="@+id/btn_category"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Calcular"/>
-            
+                android:text="Category"/>
+
             <TextView
-                android:id="@+id/txv_resultadoGas"
+                android:id="@+id/txv_category"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 

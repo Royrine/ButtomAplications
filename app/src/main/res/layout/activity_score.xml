@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="aplications.buttomaplications.GasCalculate">
+    tools:context="aplications.buttomaplications.Score">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -16,25 +16,37 @@
             android:orientation="vertical">
 
             <EditText
-                android:id="@+id/etx_gasolina"
+                android:id="@+id/etx_studentName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Valor Gasolina" />
+                android:hint="Nome do Aluno"/>
+            
+            <EditText
+                android:id="@+id/etx_score1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nota 1"/>
 
             <EditText
-                android:id="@+id/etx_alcool"
+                android:id="@+id/etx_score2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Valor Álcool"/>
+                android:hint="Nota 2"/>
+
+            <EditText
+                android:id="@+id/etx_score3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nota 3"/>
 
             <Button
-                android:id="@+id/btn_valorCalculate"
+                android:id="@+id/btn_scoreMedia"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Calcular"/>
-            
+                android:text="Cálculo de Média"/>
+
             <TextView
-                android:id="@+id/txv_resultadoGas"
+                android:id="@+id/txv_scoreResult"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
