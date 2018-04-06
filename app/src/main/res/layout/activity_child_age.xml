@@ -19,19 +19,19 @@
                 android:id="@+id/etx_childName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Child Name" />
+                android:hint="@string/child_name" />
 
             <EditText
                 android:id="@+id/etx_childAge"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Child Age" />
+                android:hint="@string/child_age" />
 
             <Button
                 android:id="@+id/btn_category"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Category"/>
+                android:text="@string/category"/>
 
             <TextView
                 android:id="@+id/txv_category"

@@ -19,31 +19,31 @@
                 android:id="@+id/etx_studentName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Nome do Aluno"/>
+                android:hint="@string/nome_do_aluno"/>
             
             <EditText
                 android:id="@+id/etx_score1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Nota 1"/>
+                android:hint="@string/nota_1"/>
 
             <EditText
                 android:id="@+id/etx_score2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Nota 2"/>
+                android:hint="@string/nota_2"/>
 
             <EditText
                 android:id="@+id/etx_score3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Nota 3"/>
+                android:hint="@string/nota_3"/>
 
             <Button
                 android:id="@+id/btn_scoreMedia"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Cálculo de Média"/>
+                android:text="@string/c_lculo_de_m_dia"/>
 
             <TextView
                 android:id="@+id/txv_scoreResult"

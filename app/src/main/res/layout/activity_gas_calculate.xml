@@ -19,19 +19,19 @@
                 android:id="@+id/etx_gasolina"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Valor Gasolina" />
+                android:hint="@string/valor_gasolina" />
 
             <EditText
                 android:id="@+id/etx_alcool"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Valor Álcool"/>
+                android:hint="@string/valor_lcool"/>
 
             <Button
                 android:id="@+id/btn_valorCalculate"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Calcular"/>
+                android:text="@string/calcular"/>
             
             <TextView
                 android:id="@+id/txv_resultadoGas"

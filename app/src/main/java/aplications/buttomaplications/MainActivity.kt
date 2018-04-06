@@ -13,7 +13,19 @@ class MainActivity : AppCompatActivity() {
 
         btn_gas.setOnClickListener {
             // Handler code here.
-            val intent = Intent(context, GasCalculate::class.java)
+            val intent = Intent(this, GasCalculate::class.java)
+            startActivity(intent);
+        }
+
+        btn_age.setOnClickListener {
+            // Handler code here.
+            val intent = Intent(this, ChildAge::class.java)
+            startActivity(intent);
+        }
+
+        btn_score.setOnClickListener {
+            // Handler code here.
+            val intent = Intent(this, Score::class.java)
             startActivity(intent);
         }
     }
